@@ -22,7 +22,8 @@
   },
   "files": [
     "codemirror/",
-    ".npmrc",
+    "LICENSE.md",
+    "README.md",
     "bower.json",
     "package.json"
   ],
