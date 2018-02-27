@@ -1,6 +1,6 @@
 {
   "name": "hippo-ckeditor-codemirror-plugin",
-  "version": "1.16.1",
+  "version": "1.16.2",
   "author": "w8tcha",
   "description": "Syntax Highlighting for the CKEditor (Source View and Source Dialog) with the CodeMirror Plugin.",
   "repository": {
@@ -28,6 +28,6 @@
     "package.json"
   ],
   "engines": {
-    "node": "6"
+    "node": ">=6"
   }
 }
