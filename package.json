@@ -1,6 +1,6 @@
 {
   "name": "hippo-ckeditor-codemirror-plugin",
-  "version": "1.16.2",
+  "version": "1.17.8",
   "author": "w8tcha",
   "description": "Syntax Highlighting for the CKEditor (Source View and Source Dialog) with the CodeMirror Plugin.",
   "repository": {
@@ -13,9 +13,10 @@
   ],
   "devDependencies": {
     "grunt": "~0.4.2",
-    "grunt-contrib-imagemin": "0.9.2",
+    "grunt-contrib-imagemin": "2.0.1",
+    "grunt-contrib-requirejs": "^1.0.0",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt-yui-compressor": "~0.3.0"
+    "grunt-yui-compressor": "~0.4.0"
   },
   "publishConfig": {
     "registry": "https://maven.onehippo.com/npm-public/"

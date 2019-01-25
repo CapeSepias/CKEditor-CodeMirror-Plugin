@@ -35,21 +35,23 @@
 }
 
 .searchCodeButton span {
-	background: url("../icons/searchcode.png") no-repeat;
+	background: url("../images/searchcode.png") no-repeat;
 }
 .autoFormat span {
-	background: url("../icons/autoformat.png") no-repeat;
+    background: url("../images/autoformat.png") no-repeat;
 }
 .CommentSelectedRange span {
-	background: url("../icons/commentselectedrange.png") no-repeat;
+    background: url("../images/commentselectedrange.png") no-repeat;
 }
 .UncommentSelectedRange span {
-	background: url("../icons/uncommentselectedrange.png") no-repeat;
+    background: url("../images/uncommentselectedrange.png") no-repeat;
 }
 
 /* Fixes for the sourceDialog */
 .cke_reset_all .CodeMirror-scroll * {
-	white-space: pre;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: normal;
 }
 
 .cke_reset_all .cm-s-cobalt *,
